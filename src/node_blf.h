@@ -52,7 +52,7 @@
 #define BCRYPT_VERSION '2'
 #define BCRYPT_MAXSALT 16	/* Precomputation is just so nice */
 #define BCRYPT_BLOCKS 6		/* Ciphertext blocks */
-#define BCRYPT_MINROUNDS 16	/* we have log2(rounds) in salt */
+#define BCRYPT_MINROUNDS 4	/* we have log2(rounds) in salt */
 
 /* Schneier specifies a maximum key length of 56 bytes.
  * This ensures that every key bit affects every cipher
